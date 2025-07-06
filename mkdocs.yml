@@ -1,0 +1,58 @@
+site_name: Evaluación Final – Género y Educación
+site_url: https://tusitio.github.io  # Reemplazar tras el deploy real
+site_author: Fernando Andrés Eguizábal Medrano
+repo_url: https://github.com/tuusuario/tu-repo  # Opcional
+repo_name: Proyecto Género
+copyright: "© 2025 Fernando Andrés Eguizábal"
+
+theme:
+  name: material
+  language: es
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: lime
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.tabs.link
+    - navigation.footer
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: img/logo.jpg  # Coloca una imagen aquí si la tienes
+  logo: img/logo.jpg        # Opcional también
+
+nav:
+  - Inicio: index.md
+  - Reflexión personal: reflexion-identidad.md
+  - Problemas en educación y género: problemas-educacion-genero.md
+  - Mis aprendizajes: aprendizajes.md
+  - ¿Por qué recomendaría esta asignatura?: recomendacion-asignatura.md
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      type: date
+      locale: es
+
+markdown_extensions:
+  - admonition
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: "#"
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
