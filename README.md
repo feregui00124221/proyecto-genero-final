@@ -31,7 +31,6 @@ El objetivo del proyecto es **documentar de forma reflexiva y crítica** una exp
 ## 🔗 Sitio web publicado
 
 📎 [https://feregui00124221.github.io/proyecto-genero-final/](https://feregui00124221.github.io/proyecto-genero-final/)  
-_(Reemplaza este enlace con tu URL real después del deploy)_
 
 ---
 
