@@ -34,6 +34,7 @@ nav:
   - Problemas en educación y género: problemas-educacion-genero.md
   - Mis aprendizajes: aprendizajes.md
   - ¿Por qué recomendaría esta asignatura?: recomendacion-asignatura.md
+  - Bibliografía: bibliografia.md
 
 plugins:
   - search
